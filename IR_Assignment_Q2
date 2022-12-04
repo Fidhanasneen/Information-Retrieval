@@ -1,0 +1,10 @@
+### Create A Simple Search Engine Using Python
+Utilize TF-IDF and Cosine Similarity to retrieve similar articles with query
+Information Retrieval right now is an important task. Probably you're wondering, how does the system can retrieve articles that we want using a query? Here are the steps,
+
+Extract documents from the Internet (It could be Web Scraping or extract manually)
+Clean the documents to make the retrieval much easier
+Create a Term-Document Matrix with TF-IDF weighting
+Write your queries and convert it as vector (based on TF-IDF)
+Calculate the cosine similarity between the query and the document and repeat the process on each document.
+Finally, show the document
